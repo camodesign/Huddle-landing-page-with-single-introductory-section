@@ -59,7 +59,7 @@ p {
   justify-content: center;
 
   background-color: var(--primary-color);
-  background-image: url('/images/bg-desktop.svg');
+  background-image: url('../images/bg-desktop.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ p {
 @media screen and (max-width: 900px) {
   .hero {
     height: 100%;
-    background-image: url('/images/bg-mobile.svg');
+    background-image: url('../images/bg-mobile.svg');
     background-position: top;
     background-size: contain;
     flex-direction: column;
